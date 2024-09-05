@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    border-radius: 20px;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f5a623;
+    position: sticky;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+input[type='number'], input[type='text'], select {
+    width: (100% - 20px);
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type='number']:focus, input[type='text']:focus, select:focus {
+    border-color: #f5a623;
+    outline: none;
+}
+
+button {
+    background-color: #f5a623;
+    color: #0a0a0a;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.4em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #c57908;
+}
+
+button:active {
+    background-color: #b37013;
+}
+
+#profile-summary,
+#fitness-results,
+#hydration-results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.results-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.results-container h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #f5a623;
+}
+
+.results-container p {
+    margin: 10px 0;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.results-container strong {
+    color: #f5a623;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .results-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.profile-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.profile-container h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #f5a623;
+}
+
+.profile-container p {
+    margin: 10px 0;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.profile-container strong {
+    color: #f5a623;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .results-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
