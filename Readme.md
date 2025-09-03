@@ -8,8 +8,10 @@ It allows users to enter their profile details (name, age, gender, weight, heigh
 ## 📸 Screenshots
 
 ### User Profile Input
+![User Profile](./assets/Screenshot%202025-09-03%20181023.png)
 
 ### BMI Calculation
+![BMI Result](./assets/Screenshot%202025-09-03%20181100.png)
 
 
 ---
